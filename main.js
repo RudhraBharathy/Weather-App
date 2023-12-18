@@ -14,7 +14,7 @@ window.onload = function () {
   var today = new Date();
   var day = days[today.getDay()];
   var date = today.getDate();
-  var month = months[today.getMonth() + 1];
+  var month = months[today.getMonth()];
   var year = today.getFullYear();
 
 
