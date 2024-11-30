@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('./bg1.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+
+.hero-container {
+    width: 20rem;
+    height: auto;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    background-image: linear-gradient(to bottom, #d16ba5, #c37bbf, #b08bd3, #9a9ae1, #86a8e7);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 30px;
+    padding: 15px;
+    text-align: center;
+    margin: 10px 0px;
+    font-weight: 500;
+}
+
+input {
+    width: 100%;
+    height: 35px;
+    outline: none;
+    border-radius: 20px;
+    background: transparent;
+    border: 1px white solid;
+    padding: 0px 20px 0 14px;
+    font-size: 15px;
+    color: #fff;
+}
+
+input::placeholder{
+    color: rgb(234, 234, 234);
+    font-size: 15px;
+}
+
+
+button {
+    position: absolute;
+    background: transparent;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    top: 5.6rem;
+    left: 14.8rem;
+}
+
+.cityname{
+    font-size: 30px;
+    margin: 20px 0 10px 0;
+    font-weight: 400;
+    text-align: center;
+}
+.dmy{
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+}
+
+.temprature-value{
+    font-size: 60px;
+    text-align: center;
+    font-weight: 200;
+}
+
+.weather-icon-desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -20px;
+}
+
+
+.weather-icon{
+    width: 55px;
+}
+
+.cloudspercent{
+    font-size: small;
+    text-align: center;
+}
+.daywiseforecast{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 25px 0px;
+}
+.weekly-weather{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 5px;
+    font-size: 12px;
+}
+
+.week-icon{
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
