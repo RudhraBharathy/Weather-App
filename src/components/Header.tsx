@@ -1,6 +1,5 @@
 import React from "react";
 import { getCurrentDateDetails } from "../utils/dateUtils";
-import "../App.css";
 
 const Header: React.FC = () => {
   const { day, date, month, year } = getCurrentDateDetails();

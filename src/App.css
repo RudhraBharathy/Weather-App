@@ -98,7 +98,7 @@ input::placeholder {
   font-weight: 200;
 }
 
-.humidity-speed-icon-desc{
+.humidity-speed-icon-desc {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -106,7 +106,7 @@ input::placeholder {
   gap: 2rem;
 }
 
-.humidity-speed{
+.humidity-speed {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -114,7 +114,7 @@ input::placeholder {
   gap: 1rem;
 }
 
-.humidity{
+.humidity {
   padding-top: 1rem;
 }
 

@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import SearchIcon from "../assets/search.svg";
-import "../App.css";
 
 interface SearchBarProps {
   onSearch: (cityName: string) => void;
