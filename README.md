@@ -1,3 +1,3 @@
 ## Weather Forcastify
 ---
-![Application Screenshot](https://github.com/user-attachments/assets/18e6b6a2-5a1f-4f1c-9ecc-302fa81e0304)
+![Application Screenshot](https://github.com/user-attachments/assets/46cbb34a-c49a-4b00-9672-2b7bc4565248)
