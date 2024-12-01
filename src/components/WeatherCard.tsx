@@ -45,15 +45,24 @@ const WeatherCard: React.FC<WeatherCardProps> = ({ city, onError }) => {
       <h3 className="temprature-value">
         {Math.round(weatherData.main.temp)}°C
       </h3>
-      <div className="weather-icon-desc-container">
-        <p className="weather-icon-desc">{weatherData.weather[0].main}</p>
-        <img
-          className="weather-icon"
-          src={`https://openweathermap.org/img/wn/${weatherData.weather[0].icon}.png`}
-          alt="weather-icon"
-        />
+      <div className="humidity-speed-icon-desc">
+        <div className="humidity-speed">
+          <p className="humidity">{weatherData.main.humidity}% humidity</p>
+          <p className="speed">{weatherData.wind.speed} m/sec</p>
+        </div>
+        <div >
+          <div className="weather-icon-desc-container">
+            <p className="weather-icon-desc">{weatherData.weather[0].main}</p>
+            <img
+              className="weather-icon"
+              src={`https://openweathermap.org/img/wn/${weatherData.weather[0].icon}.png`}
+              alt="weather-icon"
+            />
+          </div>
+
+          <p className="cloudspercent">{weatherData.clouds.all}% Clouds</p>
+        </div>
       </div>
-      <p className="cloudspercent">{weatherData.clouds.all}% Clouds</p>
     </div>
   );
 };
